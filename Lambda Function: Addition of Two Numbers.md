@@ -1,5 +1,4 @@
 # Lambda Function in Python: Addition of Two Numbers
-
 ## 🎯 Aim
 To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
 
@@ -9,8 +8,18 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
-Add code here
+
+```python
+i=int(input())
+j=int(input())
+f = lambda a, b: a+b
+print(f(i, j))
+```
 
 ## Output
 
+![image](https://github.com/user-attachments/assets/545c3fcf-8d47-470b-8253-ad4fde1b24ae)
+
 ## Result
+
+Thus the program executed successfully.
